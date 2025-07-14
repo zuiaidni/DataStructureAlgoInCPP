@@ -1,0 +1,100 @@
+# ====================
+# Visual Studio 忽略文件模板
+# ====================
+
+## 构建输出目录
+[Bb]in/
+[Oo]bj/
+Build/
+
+## CMake 生成目录
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+## 用户本地设置文件（不要上传）
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+## VS 的隐藏设置目录
+.vs/
+.idea/
+.ipch/
+
+## 编译中间文件
+*.obj
+*.pch
+*.pdb
+*.idb
+*.tlog
+*.log
+*.lastbuildstate
+
+## 资源处理中间文件
+*.aps
+*.res
+*.rpt
+
+## 临时文件
+*.tmp
+*.bak
+*.old
+*.cache
+*.sdf
+*.opensdf
+
+## 不需要上传的调试文件
+*.ilk
+*.iobj
+*.ipdb
+
+## 自动生成的文件
+*_i.c
+*_p.c
+*.dll
+*.exe
+*.lib
+*.exp
+
+## 日志、错误、运行记录
+*.log
+
+## 本地测试/调试生成
+TestResults/
+*.trx
+
+## NuGet 包
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+## DotCover
+.idea/
+
+## 文件系统临时
+.DS_Store
+Thumbs.db
+
+# ====================
+# 可选（根据你使用的工具补充）：
+# ====================
+
+# JetBrains Rider/CLion
+.idea/
+
+# VSCode 相关（如果你偶尔用 VS Code 处理 Git）
+.vscode/
+
+# Conan（C++ 包管理器）
+conanbuild/
+conan.lock
+
+# 生成的日志和报告文件夹
+logs/
+coverage/
