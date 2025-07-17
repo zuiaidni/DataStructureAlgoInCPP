@@ -12,10 +12,6 @@ void TestChapter1_1();
 void TestChapter1_2();
 
 
-
-
-
-
 //函数与参数
 
 //程序 1-1 计算一个整型表达式
@@ -32,7 +28,6 @@ T abc(T a, T b, T c)
 	return a + b * c;
 }
 
-
 //程序 1-4 省略...
 
 //程序 1-5 利用引用参数计算一个表达式
@@ -48,7 +43,6 @@ Ta abc2(const Ta& a, const Tb& b, const Tc& c)
 {
 	return a + b * c;
 }
-
 
 //程序 1-10 为一个二维数组分配存储空间
 //思路：先分配行指针，然后根据行指针再分配列，最后形成二维数组
@@ -121,7 +115,7 @@ public:
 	//原书有这个案例 是程序 1-17 我认为不太符合逻辑，所以做了自己的优化和思路省略了
 	//Currency& Increment(const Currency& currency);
 
-	void outpu() const;
+	void output() const;
 
 private:
 	signType m_sign;

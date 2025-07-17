@@ -3,17 +3,13 @@
 
 int abc(int a, int b, int c)
 {
-	
-
 	return a + b * c;
-
 }
 
 float abc(float a, float b, float c)
 {
 	return a + b * c;
 }
-
 
 void TestChapter1_1()
 {
@@ -30,7 +26,6 @@ void TestChapter1_2()
 {
 
 }
-
 
 //所有第一章节的代码测试函数
 void TestChapter_01()
@@ -82,7 +77,6 @@ Currency Currency::Add(const Currency& currency)
 		m_sign = signType::plus;
 	return *this;
 }
-
 
 void Currency::output() const
 {
